@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil.Dev | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+    <h3>EMIL.DEV</h3>
+    <nav class="top-nav">
+        <a onclick="navigate('home', this)" class="active">Home</a>
+        <a onclick="navigate('education', this)">Education</a>
+        <a onclick="navigate('projects', this)">Projects</a>
+        <a onclick="navigate('about', this)">About</a>
+    </nav>
+</header>
+
+<div class="sidebar" id="sidebar">
+    <a onclick="navigate('home')">Home</a>
+    <a onclick="navigate('education')">Education</a>
+    <a onclick="navigate('projects')">Projects</a>
+    <a onclick="navigate('about')">About</a>
+</div>
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+<section id="home" class="section active-section">
+    <div class="home-wrap">
+        <img src="ella-musk.jpg" class="profile-img" alt="Emil John Rey">
+        <div>
+            <h1>Emil John Rey</h1>
+            <p style="font-size: 1.5rem; color: var(--text-muted); margin-top: 15px;">
+                I am a <span id="type" style="color: var(--accent); font-weight: bold;"></span>
+            </p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/emil-john-rey-58aa07321" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/1DmqATjptt/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/limeee0_0_0" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/639164368390" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/NeonNexux" target="_blank"><i class="fab fa-github"></i>
+
+                </a>
+            </div>
+
+            <div style="margin-top: 40px;">
+                <button class="btn hire" onclick="hire()">Hire Me
+                </button>
+                
+                <button class="btn cv" onclick="downloadCV()">
+                    Download CV
+                </button>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section">
+    <h2>Education Timeline</h2>
+    <div class="card">
+        <h3 style="color: var(--accent); margin-top:0;">La Concepcion College</h3>
+        <p><strong>Senior High School (2024 - 2025)</strong><br>
+        Technical Vocational Livelihood: Information and Communication Technology (ICT)</p>
+    </div>
+    <div class="card">
+        <h3 style="color: var(--accent); margin-top:0;">La Concepcion College</h3>
+        <p><strong>Junior High School (2020 - 2024)</strong><br>Grade 7-10</p>
+    </div>
+    <div class="card">
+        <h3 style="color: var(--accent); margin-top:0;">FVR PHASE II Elementary School</h3>
+        <p><strong>Elementary Graduate (2014 - 2020)</strong><br>Grade 1-6</p>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+        
+        <div class="card">
+            <h3>Interactive Personal Portfolio 
+            </h3>
+            <div>
+                <p>
+                    
+                   A modern, static web profile designed to showcase professional information through an interactive and user-centric interface. This project emphasizes clean code, accessibility, and a seamless digital experience.
+                </p>
+                <div>
+                  <img src="first-Project.jpg" class="kiki">
+                 
+                   </span>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+        
+    <div class="card">
+        <h3>Oops! Are you lost</h3>
+        <p>How about we visit this page ahead of us soon...</p>
+        
+    </div>
+    
+    <div class="card">
+        
+        <h3>Oops! Are you lost</h3>
+        <p>How about we visit this page ahead of us soon...</p>
+        
+    </div>
+        
+</section>
+
+<section id="about" class="section">
+    <h2>About the Developer</h2>
+    <div class="card">
+        <p class="Dale"><em>
+            I am Emil John Rey, a technology enthusiast born on October 26, 2008, with a deep passion for Web Development, Animation, and Game Development. I am dedicated to exploring innovative ways to build applications that serve the community. As an adaptable and lifelong learner, I am eager to contribute my energy to a professional environment where I can grow my technical expertise while supporting my educational journey.
+        </em></p>
+    </div>
+ 
+
+    <h3 style="color: var(--accent); margin-top: 30px; font-size: 1.2rem;">
+        Technical Skills & Tools
+    </h3>
+    
+    <div class="skills-container">
+        <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill-item"><i class="fas fa-video"></i> CapCut</div>
+        <div class="skill-item"><i class="fas fa-magic"></i> PicsArt</div>
+        <div class="skill-item"><i class="fas fa-paintbrush"></i> Canva</div>
+        <div class="skill-item"><i class="fas fa-file-word"></i> MS Docs</div>
+        <div class="skill-item"><i class="fas fa-search"></i> Tech Research</div>
+        <div class="skill-item"><i class="fas fa-feather-alt"></i> Creative Writing</div>
+        <div class="skill-item"><i class="fas fa-gamepad"></i> Pixel Art & Sprite Design</div>
+    </div>
+    
+    <h3 style="color: var(--accent); margin-top: 30px; font-size: 1.2rem;">
+        Other Information 
+    </h3>
+    
+    <div class="language-stats">
+    <h3 style="color: var(--accent); margin-bottom: 15px; font-size: 1.1rem;">Language Proficiency</h3>
+    
+    <div class="stat-group">
+        <div class="stat-info">
+            <span>Filipino (Native Language)</span>
+            <span>100%</span>
+        </div>
+        <div class="stat-bar">
+            <div class="bar-fill" style="width: 100%;"></div>
+        </div>
+    </div>
+
+    <div class="stat-group">
+        <div class="stat-info">
+            <span>
+                English (Secondary Language)</span>
+            <span>85%</span>
+        </div>
+        <div class="stat-bar">
+            <div class="bar-fill" style="width: 85%;"></div>
+        </div>
+    </div>
+
+    <div class="stat-group">
+        <div class="stat-info">
+            <span>
+                Japanese (Foreign Language)</span>
+            <span>30%</span>
+        </div>
+        <div class="stat-bar">
+            <div class="bar-fill" style="width: 30%;"></div>
+        </div>
+    </div>
+</div>
+
+    <div class="personal-info-grid">
+     <div class="info-item">
+        <i class="fas fa-map-marker-alt">
+            
+        </i>
+        <span><strong>
+            Location:
+            </strong> North Luzon, Philippines
+            </span>
+    </div>
+    <div class="info-item">
+        <i class="fas fa-flag">
+            
+        </i>
+        <span>
+            <strong>
+                Nationality:
+            </strong>
+                Filipino
+        </span>
+    </div>
+    <div class="info-item">
+        <i class="fas fa-language"></i>
+        <span>
+            <strong>
+                Languages:
+            </strong> Tagalog, English, Japanese
+        </span>
+    </div>
+</div>
+    
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3 style="color: var(--accent);">EMIL.DEV</h3>
+            <p><strong>Emil John Rey</strong><br>
+            <em>Web & Game Development Student | Creative Writer | Editor
+            </em>
+            </p>
+            <p>
+                <em>
+                "You will never win if you never begin"
+                </em>
+            </p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a onclick="navigate('home')">Home</a></li>
+                <li><a onclick="navigate('education')">Education</a></li>
+                <li><a onclick="navigate('projects')">Projects</a></li>
+                <li><a onclick="navigate('about')">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact Info</h4>
+            <p>Email me for collaborations:</p>
+            <a href="mailto:emiljohnrey143@gmail.com" class="footer-email">emiljohnrey143@gmail.com</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="social-icons footer-socials">
+            <a href="https://www.linkedin.com/in/emil-john-rey-58aa07321" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/1DmqATjptt/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/limeee0_0_0" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/639164368390" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2026 Emil.Dev | Developed by Google Gemini & Emil John Rey</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
