@@ -100,7 +100,6 @@ header h3 { margin: 0; font-weight: 800; color: var(--accent); letter-spacing: 1
     background: var(--card-bg); padding: 30px; border-radius: 16px; 
     margin-bottom: 25px; border: 1px solid rgba(255, 255, 255, 0.05); 
     transition: all 0.4s ease; position: relative;
-    margin-right: 150px;
 }
 .card:hover { 
     transform: translateY(-10px); border-color: var(--accent); 
