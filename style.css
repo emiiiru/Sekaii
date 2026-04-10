@@ -179,6 +179,8 @@ h1 { font-size: 3.5rem; margin: 0; background: linear-gradient(to right, #fff, v
 .fa-facebook:hover { color: #1877f2; }
 .fa-instagram:hover { color: #e4405f; }
 .fa-whatsapp:hover { color: #25d366; }
+.fa-youtube:hover { color: #e4405f; }
+
 
 /* FOOTER STYLES */
 footer { background: var(--card-bg); padding: 60px 8% 30px; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 50px; }
